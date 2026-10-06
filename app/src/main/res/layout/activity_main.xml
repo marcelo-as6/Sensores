@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Threads y Sensores"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnDescargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar imagen del puma" />
+
+    <ImageView
+        android:id="@+id/imgResultado"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/txtSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orientación del dispositivo:"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/txtOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando sensor..."
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejecutar AsyncTask"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
